@@ -3,6 +3,7 @@ import rospy
 import numpy as np
 from nav_msgs.msg import Odometry
 
+
 class EVDodge
 	def __init__:
 		self.object_sub = rospy.Subscriber('/evdodge_demo_ball/odom',Odometry,object_sub_cb )
